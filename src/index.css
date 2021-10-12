@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0px;
+  background-color: #FFFEF6;
+  height: 100vh;
+}
+
+ul {
+  padding: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  height: 90%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  position: fixed;
+  bottom: 6vh;
+}
+
+.to-do {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  max-width: 600px;
+  width: 90vw;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.to-do:nth-child(3n-2) {
+  background-color: #EAF4DA;
+}
+
+.to-do:nth-child(3n-1) {
+  background-color: #FDE0CD;
+}
+
+.to-do:nth-child(3n) {
+  background-color: #FACCD1;
+}
+
+.to-do p,button{
+  margin: 1.5rem;
+  background-color: transparent;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  color: #516880;
+}
+
+.tutorial-container {
+  margin-top: 10vh;
+  max-width: 350px;
+  text-align: center;
+  font-size: 2rem;
+  color: #516880;
+  font-weight: 800;
+}
+
+#plus-button {
+  height: 3.5rem;
+}
+
+#input-field {
+  font-family: 'Nunito', sans-serif;
+  color: #516880;
+  background-color: #FFFEF6;
+  font-size: 1rem;
+  height: 3rem;
+  width: 60vw;
+  max-width: 500px;
+  border: none;
+}
