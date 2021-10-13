@@ -34,10 +34,6 @@ ul {
   padding: 0px;
 }
 
-.hidden {
-  display: none;
-}
-
 .flex {
   display: flex;
 }
