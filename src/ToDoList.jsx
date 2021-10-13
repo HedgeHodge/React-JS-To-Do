@@ -3,14 +3,14 @@ import ToDo from './ToDo';
 
 export default function ToDoList (props) {
   return(
-    <div>
+    <>
       <ul id="to-dos">
-        {props.todos.map(todo => {
+        { props.todos.map(todo => {
           return(
-            <ToDo todo={todo} handleClick={props.handleClick}/>
+            <ToDo todo={todo} handleClick={props.handleClick} />
           )
         })}
       </ul>
-    </div>
+    </>
   )
 }

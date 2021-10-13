@@ -4,7 +4,7 @@ import ToDoList from './ToDoList';
 
 export default function App() {
   const [typing, setTyping] = useState(false);
-  const [toDoList, setToDoList] = useState(["One", "Two"]);
+  const [toDoList, setToDoList] = useState([]);
   const [text, setText] = useState("");
 
   function toggleTyping () {
