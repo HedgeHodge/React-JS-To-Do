@@ -1,5 +1,5 @@
 import React from 'react';
-import plusButton from './plus-button.svg';
+import plusButton from '../public/plus-button.svg';
 
 function SwitchInput(props) {
   return (
